@@ -87,3 +87,26 @@ javascript:(function() { window.bookmarkver = '1.4'; var isReddit = document.loc
  
 Feel free to subscribe to [/r/PowerDeleteSuite/](https://www.reddit.com/r/PowerDeleteSuite/) where I will make a post every time that I make an update to the script!
  
+
+## Developer / Test harness
+
+This repository includes a small browser-based test harness under `test/` to speed up local development and smoke tests.
+
+- `test/server.js` — minimal Node static server that serves the repo root and test data on port 8000.
+- `test/index.html` — harness page that builds a tiny DOM, loads `powerdeletesuite.js`, stubs wiki/CSS fetches, and reports PASS/FAIL.
+- `test/data/` — contains `centralform.json` and `stylesheet.json` used by the harness.
+
+To run the harness on Windows (PowerShell / pwsh):
+
+```powershell
+# preferred: start the Node-based test server (requires Node.js on PATH)
+node .\test\server.js
+
+# alternative helper (auto-detects Node or Python):
+.\test\run.ps1
+```
+
+Then open `http://localhost:8000/` in your browser. The harness will display a short PASS/FAIL report for several basic `pd` behaviors (loads, presence of `pd.version`, `pd.editStrings`, and endpoints).
+
+If you don't have Node installed you can still open `test/index.html` directly, but you must ensure `powerdeletesuite.js` is reachable from that page (or edit the harness to point to a hosted URL).
+

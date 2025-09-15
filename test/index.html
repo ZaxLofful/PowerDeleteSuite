@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PowerDeleteSuite - Test Harness</title>
+    <style>
+      body { font-family: system-ui, Arial; padding: 20px }
+      .pass { color: green }
+      .fail { color: red }
+      pre { background: #f6f8fa; padding: 10px }
+    </style>
+  </head>
+  <body>
+    <h1>PowerDeleteSuite — Quick test harness</h1>
+    <p>This page loads the repository's <code>powerdeletesuite.js</code> and small JSON stubs to simulate Reddit endpoints. It runs a few smoke checks and reports PASS/FAIL here.</p>
+
+    <div id="results"></div>
+
+    <script>
+      // Minimal DOM elements expected by the script
+      document.body.innerHTML += "<div class='content' role='main'><div id='pd__central'></div></div>";
+      // header and config elements the script reads
+      document.body.innerHTML += "<div id='header-bottom-right'><span class='user'><a>testuser</a></span></div>";
+      var config = document.createElement('div');
+      config.id = 'config';
+      config.innerHTML = '{"modhash": "testmodhash"}';
+      document.body.appendChild(config);
+
+      function appendResult(name, ok, info) {
+        var el = document.getElementById('results');
+        var d = document.createElement('div');
+        d.className = ok ? 'pass' : 'fail';
+        d.innerHTML = (ok ? 'PASS' : 'FAIL') + ' — ' + name + (info ? ': ' + info : '');
+        el.appendChild(d);
+      }
+
+      // Load the script from the server root
+      var s = document.createElement('script');
+      s.src = '/powerdeletesuite.js';
+      s.onload = function() {
+        try {
+          // Override some network calls to point at our stubs
+          pd.setup.applyStyles = function() {
+            // read local test stylesheet.json if present
+            fetch('/test/data/stylesheet.json').then(r => r.text()).then(function(data) {
+              document.getElementById('pd__style') || (function(){var st=document.createElement('style');st.id='pd__style';document.head.appendChild(st)})();
+              document.getElementById('pd__style').innerHTML = JSON.parse(data).data.stylesheet;
+              appendResult('applyStyles load', true);
+            }).catch(function(e){ appendResult('applyStyles load', false, e && e.message); });
+          };
+
+          pd.setup.applyCentral = function() {
+            fetch('/test/data/centralform.json').then(r => r.json()).then(function(data){
+              document.getElementById('pd__central').innerText = data.data.content_md;
+              appendResult('applyCentral load', true);
+              // run a few quick checks
+              appendResult('pd.version present', !!pd.version, pd.version);
+              appendResult('pd.editStrings non-empty', Array.isArray(pd.editStrings) && pd.editStrings.length>0);
+              appendResult('endpoints defined', !!(pd.endpoints && pd.endpoints.comments && pd.endpoints.submissions));
+            }).catch(function(e){ appendResult('applyCentral load', false, e && e.message); });
+          };
+
+          // Create the pd__style element expected by the script
+          var st = document.createElement('style'); st.id = 'pd__style'; document.head.appendChild(st);
+
+          // Start the app
+          try { pd.init(); appendResult('pd.init executed', true); } catch (e) { appendResult('pd.init executed', false, e.message); }
+        } catch (e) {
+          appendResult('script load', false, e.message);
+        }
+      };
+      s.onerror = function(e){ appendResult('load powerdeletesuite.js', false, 'network error'); };
+      document.head.appendChild(s);
+    </script>
+  </body>
+</html>

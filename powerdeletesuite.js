@@ -45,171 +45,171 @@ var pd = {
     "My favorite season is autumn.",
     "I like playing board games.",
     "I enjoy star gazing.",
-"I love watching documentaries.",
-"I like making crafts.",
-"I enjoy attending concerts.",
-"My favorite food is sushi.",
-"I like trying new restaurants.",
-"I enjoy going to the beach.",
-"I love practicing mindfulness.",
-"I like learning about history.",
-"I enjoy playing the piano.",
-"My favorite drink is tea.",
-"I like volunteering in my community.",
-"I enjoy visiting museums.",
-"I love taking road trips.",
-"I like working on DIY projects.",
-"I enjoy playing with my pets.",
-"My favorite dessert is cheesecake.",
-"I like listening to audiobooks.",
-"I enjoy doing crossword puzzles.",
-"I love spending time in nature.",
-"I like visiting art galleries.",
-"I enjoy attending theater plays.",
-"My favorite flower is the sunflower.",
-"I like practicing meditation.",
-"I enjoy cooking new recipes.",
-"I love exploring national parks.",
-"I like collecting stamps.",
-"I enjoy attending festivals.",
-"My favorite tree is the oak.",
-"I like gardening in my backyard.",
-"I enjoy learning new skills.",
-"I love making pottery.",
-"I like watching wildlife.",
-"I enjoy going to farmers markets.",
-"My favorite animal is the dolphin.",
-"I like playing tennis.",
-"I enjoy going on picnics.",
-"I love watching the stars.",
-"I like bird watching.",
-"I enjoy making jewelry.",
-"My favorite place is the mountains.",
-"I like trying new hobbies.",
-"I enjoy going on adventures.",
+    "I love watching documentaries.",
+    "I like making crafts.",
+    "I enjoy attending concerts.",
+    "My favorite food is sushi.",
+    "I like trying new restaurants.",
+    "I enjoy going to the beach.",
+    "I love practicing mindfulness.",
+    "I like learning about history.",
+    "I enjoy playing the piano.",
+    "My favorite drink is tea.",
+    "I like volunteering in my community.",
+    "I enjoy visiting museums.",
+    "I love taking road trips.",
+    "I like working on DIY projects.",
+    "I enjoy playing with my pets.",
+    "My favorite dessert is cheesecake.",
+    "I like listening to audiobooks.",
+    "I enjoy doing crossword puzzles.",
+    "I love spending time in nature.",
+    "I like visiting art galleries.",
+    "I enjoy attending theater plays.",
+    "My favorite flower is the sunflower.",
+    "I like practicing meditation.",
+    "I enjoy cooking new recipes.",
+    "I love exploring national parks.",
+    "I like collecting stamps.",
+    "I enjoy attending festivals.",
+    "My favorite tree is the oak.",
+    "I like gardening in my backyard.",
+    "I enjoy learning new skills.",
+    "I love making pottery.",
+    "I like watching wildlife.",
+    "I enjoy going to farmers markets.",
+    "My favorite animal is the dolphin.",
+    "I like playing tennis.",
+    "I enjoy going on picnics.",
+    "I love watching the stars.",
+    "I like bird watching.",
+    "I enjoy making jewelry.",
+    "My favorite place is the mountains.",
+    "I like trying new hobbies.",
+    "I enjoy going on adventures.",
     "I love sailing on the lake.",
-"I like attending sports events.",
-"I enjoy taking dance classes.",
-"My favorite book is Pride and Prejudice.",
-"I like doing photography walks.",
-"I enjoy visiting historical sites.",
-"I love learning about astronomy.",
-"I like playing with children.",
-"I enjoy taking bubble baths.",
-"My favorite band is The Beatles.",
-"I like creating digital art.",
-"I enjoy practicing archery.",
-"I love watching animated movies.",
-"I like doing science experiments.",
-"I enjoy learning about marine life.",
-"My favorite snack is popcorn.",
-"I like building model airplanes.",
-"I enjoy doing tai chi.",
-"I love attending wine tastings.",
-"I like knitting scarves.",
-"I enjoy going to amusement parks.",
-"My favorite TV show is Friends.",
-"I like making homemade gifts.",
-"I enjoy exploring caves.",
-"I love listening to classical music.",
-"I like making soap.",
-"I enjoy trying new cuisines.",
-"My favorite superhero is Spider-Man.",
-"I like going to book clubs.",
-"I enjoy doing escape rooms.",
-"I love learning about different cultures.",
-"I like practicing calligraphy.",
-"I enjoy attending art workshops.",
-"My favorite fruit is mango.",
-"I like making candles.",
-"I enjoy playing frisbee.",
-"I love visiting botanical gardens.",
-"I like going to the zoo.",
-"I enjoy watching ballet.",
-"My favorite author is J.K. Rowling.",
-"I like practicing magic tricks.",
-"I enjoy rock climbing.",
-"I love learning about physics.",
-"I like doing community service.",
-"I enjoy making flower arrangements.",
-"My favorite comedian is Robin Williams.",
-"I like doing woodwork.",
-"I enjoy going on nature hikes.",
-"I love listening to jazz.",
-"I like playing with Legos.",
-"I enjoy attending live shows.",
-"My favorite instrument is the violin.",
-"I like learning new software.",
-"I enjoy doing pottery classes.",
-"I love participating in trivia nights.",
-"I like going to the planetarium.",
-"I enjoy learning about geology.",
-"My favorite holiday is Christmas.",
-"I like watching foreign films.",
-"I enjoy writing poetry.",
-"I love exploring abandoned places.",
+    "I like attending sports events.",
+    "I enjoy taking dance classes.",
+    "My favorite book is Pride and Prejudice.",
+    "I like doing photography walks.",
+    "I enjoy visiting historical sites.",
+    "I love learning about astronomy.",
+    "I like playing with children.",
+    "I enjoy taking bubble baths.",
+    "My favorite band is The Beatles.",
+    "I like creating digital art.",
+    "I enjoy practicing archery.",
+    "I love watching animated movies.",
+    "I like doing science experiments.",
+    "I enjoy learning about marine life.",
+    "My favorite snack is popcorn.",
+    "I like building model airplanes.",
+    "I enjoy doing tai chi.",
+    "I love attending wine tastings.",
+    "I like knitting scarves.",
+    "I enjoy going to amusement parks.",
+    "My favorite TV show is Friends.",
+    "I like making homemade gifts.",
+    "I enjoy exploring caves.",
+    "I love listening to classical music.",
+    "I like making soap.",
+    "I enjoy trying new cuisines.",
+    "My favorite superhero is Spider-Man.",
+    "I like going to book clubs.",
+    "I enjoy doing escape rooms.",
+    "I love learning about different cultures.",
+    "I like practicing calligraphy.",
+    "I enjoy attending art workshops.",
+    "My favorite fruit is mango.",
+    "I like making candles.",
+    "I enjoy playing frisbee.",
+    "I love visiting botanical gardens.",
+    "I like going to the zoo.",
+    "I enjoy watching ballet.",
+    "My favorite author is J.K. Rowling.",
+    "I like practicing magic tricks.",
+    "I enjoy rock climbing.",
+    "I love learning about physics.",
+    "I like doing community service.",
+    "I enjoy making flower arrangements.",
+    "My favorite comedian is Robin Williams.",
+    "I like doing woodwork.",
+    "I enjoy going on nature hikes.",
+    "I love listening to jazz.",
+    "I like playing with Legos.",
+    "I enjoy attending live shows.",
+    "My favorite instrument is the violin.",
+    "I like learning new software.",
+    "I enjoy doing pottery classes.",
+    "I love participating in trivia nights.",
+    "I like going to the planetarium.",
+    "I enjoy learning about geology.",
+    "My favorite holiday is Christmas.",
+    "I like watching foreign films.",
+    "I enjoy writing poetry.",
+    "I love exploring abandoned places.",
     "I like practicing martial arts.",
-"I enjoy doing mindfulness exercises.",
-"I love learning about space exploration.",
-"I like going to flea markets.",
-"I enjoy collecting vintage items.",
-"My favorite painter is Van Gogh.",
-"I like making origami.",
-"I enjoy going to car shows.",
-"I love learning about ancient civilizations.",
-"I like watching magic shows.",
-"I enjoy doing jigsaw puzzles.",
-"My favorite vegetable is broccoli.",
-"I like attending science fairs.",
-"I enjoy playing card games.",
-"I love visiting aquariums.",
-"I like practicing playing drums.",
-"I enjoy making scrapbooks.",
-"My favorite poet is Robert Frost.",
-"I like visiting bookstores.",
-"I enjoy doing improv comedy.",
-"I love learning about psychology.",
-"I like attending lectures.",
-"I enjoy going on scenic drives.",
-"My favorite cuisine is Italian.",
-"I like creating comic strips.",
-"I enjoy going to the opera.",
-"I love watching musicals.",
-"I like practicing parkour.",
-"I enjoy learning about architecture.",
-"My favorite drink is hot chocolate.",
-"I like attending workshops.",
-"I enjoy playing darts.",
-"I love exploring forests.",
-"I like learning about meteorology.",
-"I enjoy going to the circus.",
-"My favorite gemstone is sapphire.",
-"I like practicing public speaking.",
-"I enjoy doing charity work.",
-"I love watching wildlife documentaries.",
-"I like learning about mythology.",
-"I enjoy doing metalworking.",
-"My favorite planet is Saturn.",
-"I like creating graphic designs.",
-"I enjoy going to comedy clubs.",
-"I love learning about economics.",
-"I like making quilts.",
-"I enjoy going to music festivals.",
-"My favorite sculpture is The Thinker.",
-"I like practicing yoga.",
-"I enjoy attending cultural festivals.",
-"I love learning about world history.",
-"I like visiting libraries.",
-"I enjoy doing voice acting.",
-"My favorite dance is the tango.",
-"I like making paper crafts.",
-"I enjoy going to food tastings.",
-"I love learning about anthropology.",
-"I like attending art exhibitions.",
-"I enjoy going to street fairs.",
-"My favorite insect is the butterfly.",
-"I like creating video content.",
-"I enjoy participating in hackathons."
+    "I enjoy doing mindfulness exercises.",
+    "I love learning about space exploration.",
+    "I like going to flea markets.",
+    "I enjoy collecting vintage items.",
+    "My favorite painter is Van Gogh.",
+    "I like making origami.",
+    "I enjoy going to car shows.",
+    "I love learning about ancient civilizations.",
+    "I like watching magic shows.",
+    "I enjoy doing jigsaw puzzles.",
+    "My favorite vegetable is broccoli.",
+    "I like attending science fairs.",
+    "I enjoy playing card games.",
+    "I love visiting aquariums.",
+    "I like practicing playing drums.",
+    "I enjoy making scrapbooks.",
+    "My favorite poet is Robert Frost.",
+    "I like visiting bookstores.",
+    "I enjoy doing improv comedy.",
+    "I love learning about psychology.",
+    "I like attending lectures.",
+    "I enjoy going on scenic drives.",
+    "My favorite cuisine is Italian.",
+    "I like creating comic strips.",
+    "I enjoy going to the opera.",
+    "I love watching musicals.",
+    "I like practicing parkour.",
+    "I enjoy learning about architecture.",
+    "My favorite drink is hot chocolate.",
+    "I like attending workshops.",
+    "I enjoy playing darts.",
+    "I love exploring forests.",
+    "I like learning about meteorology.",
+    "I enjoy going to the circus.",
+    "My favorite gemstone is sapphire.",
+    "I like practicing public speaking.",
+    "I enjoy doing charity work.",
+    "I love watching wildlife documentaries.",
+    "I like learning about mythology.",
+    "I enjoy doing metalworking.",
+    "My favorite planet is Saturn.",
+    "I like creating graphic designs.",
+    "I enjoy going to comedy clubs.",
+    "I love learning about economics.",
+    "I like making quilts.",
+    "I enjoy going to music festivals.",
+    "My favorite sculpture is The Thinker.",
+    "I like practicing yoga.",
+    "I enjoy attending cultural festivals.",
+    "I love learning about world history.",
+    "I like visiting libraries.",
+    "I enjoy doing voice acting.",
+    "My favorite dance is the tango.",
+    "I like making paper crafts.",
+    "I enjoy going to food tastings.",
+    "I love learning about anthropology.",
+    "I like attending art exhibitions.",
+    "I enjoy going to street fairs.",
+    "My favorite insect is the butterfly.",
+    "I like creating video content.",
+    "I enjoy participating in hackathons."
   ],
   init: function () {
     pd.checks.versions();
@@ -410,6 +410,27 @@ var pd = {
     createProcessStream: function () {
       window.pd_processing = true;
       pd.exportItems = [];
+      // Clear any existing live export object URL when starting a new run
+      if (pd.ui && pd.ui._exportObjectUrl) {
+        try {
+          URL.revokeObjectURL(pd.ui._exportObjectUrl);
+        } catch (e) {}
+        pd.ui._exportObjectUrl = null;
+        $("#pd__central .processing .export-button-live").remove();
+      }
+      // Also clear any final export URL and pending timers
+      if (pd.ui) {
+        if (pd.ui._finalExportUrl) {
+          try {
+            URL.revokeObjectURL(pd.ui._finalExportUrl);
+          } catch (e) {}
+          pd.ui._finalExportUrl = null;
+        }
+        if (pd.ui._exportUpdateTimer) {
+          clearTimeout(pd.ui._exportUpdateTimer);
+          pd.ui._exportUpdateTimer = null;
+        }
+      }
       pd.exportIds = [];
       pd.task = {
         after: "",
@@ -868,6 +889,12 @@ var pd = {
           pd.exportItems.push(str);
           pd.exportIds.push(item.data.id);
           pd.task.info.exported++;
+          // Update the live export download anchor so the user can grab a partial CSV
+          try {
+            if (pd.ui && pd.ui.updateExportButton) pd.ui.updateExportButton(500);
+          } catch (e) {
+            console.log('Failed to update live export button', e);
+          }
         }
       },
     },
@@ -1043,6 +1070,104 @@ var pd = {
         pd.task.info.donePages;
       document.title = pd.config.user + " | " + pd.task.info.ajaxCalls;
     },
+    // Create or update a live download anchor for the current CSV export items.
+    // Build and return a Blob and object URL for the current exportItems immediately.
+    // Export configuration (change at runtime if desired). maxPartialRows: null means no cap (export everything).
+    exportConfig: {
+      maxPartialRows: null,
+    },
+    createExportBlobNow: function () {
+      if (!pd.exportItems || !pd.exportItems.length) return null;
+      var csv = pd.exportItems.join("\n");
+      try {
+        var blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+        var url = URL.createObjectURL(blob);
+        return { blob: blob, url: url };
+      } catch (e) {
+        console.log("Could not create export blob", e);
+        return null;
+      }
+    },
+
+    // Lightweight debounced UI updater for the export button.
+    // It avoids creating Blobs except when the user explicitly clicks the partial-download link.
+    updateExportButton: function (delayMs) {
+      delayMs = typeof delayMs === 'number' ? delayMs : 250;
+
+      // Clear pending timer
+      if (pd.ui && pd.ui._exportUpdateTimer) {
+        clearTimeout(pd.ui._exportUpdateTimer);
+      }
+
+      pd.ui._exportUpdateTimer = setTimeout(function () {
+        pd.ui._exportUpdateTimer = null;
+
+        // Remove any previously created transient object URL for live partials (we won't create one now)
+        if (pd.ui && pd.ui._exportObjectUrl) {
+          try { URL.revokeObjectURL(pd.ui._exportObjectUrl); } catch (e) {}
+          pd.ui._exportObjectUrl = null;
+        }
+
+        // Create or update anchor in the processing UI (but don't build a Blob yet)
+        var $container = $("#pd__central .processing .progress__byline");
+        if ($container.length === 0) $container = $("#pd__central .processing");
+
+        var $a = $container.find('.export-button-live');
+        if ($a.length === 0) {
+          $a = $(
+            '<a class="export-button export-button-live" style="margin-left:8px;" href="javascript:void(0);" download="PowerDeleteSuiteExport.csv">Download Partial Export</a>'
+          );
+          $container.append($a);
+
+          // On click: create the Blob on-demand and set href; cap partial exports to avoid huge memory use
+          $a.on('click', function (e) {
+            var cfg = pd.ui && pd.ui.exportConfig ? pd.ui.exportConfig : { maxPartialRows: null };
+            var maxRows = cfg.maxPartialRows; // null => no cap
+            var itemsToInclude = pd.exportItems;
+            var tooLarge = false;
+            if (!itemsToInclude || itemsToInclude.length === 0) {
+              e.preventDefault();
+              return;
+            }
+            if (maxRows !== null && typeof maxRows !== 'undefined' && itemsToInclude.length > (maxRows + 1)) {
+              // keep header + first maxRows rows
+              itemsToInclude = itemsToInclude.slice(0, maxRows + 1);
+              tooLarge = true;
+            }
+
+            try {
+              // revoke any previous live URL
+              if (pd.ui._exportObjectUrl) { try { URL.revokeObjectURL(pd.ui._exportObjectUrl); } catch (ee) {} pd.ui._exportObjectUrl = null; }
+              var csv = itemsToInclude.join("\n");
+              var blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+              var url = URL.createObjectURL(blob);
+              pd.ui._exportObjectUrl = url;
+
+              var filename = 'PowerDeleteSuiteExport' + (tooLarge ? '-partial' : '') + '.csv';
+              $(this).attr('href', url).attr('download', filename);
+
+              // Revoke this temporary URL after 30s to free resources
+              setTimeout(function () {
+                if (pd.ui && pd.ui._exportObjectUrl) {
+                  try { URL.revokeObjectURL(pd.ui._exportObjectUrl); } catch (e) {}
+                  pd.ui._exportObjectUrl = null;
+                }
+              }, 30000);
+              // Let the click proceed and the browser will download the blob.
+            } catch (ex) {
+              console.log('Failed to build partial export on demand', ex);
+              e.preventDefault();
+            }
+          });
+        }
+
+        // Update the anchor text with the current count (cheap to build)
+        var count = pd.exportItems ? Math.max(0, pd.exportItems.length - 1) : 0;
+        var cfg = pd.ui && pd.ui.exportConfig ? pd.ui.exportConfig : { maxPartialRows: null };
+        var capText = cfg.maxPartialRows ? ' (partial cap ' + cfg.maxPartialRows + ')' : '';
+        $a.text('Download Partial Export (' + count + ' rows)' + capText);
+      }, delayMs);
+    },
     done: function () {
       pd.ui.updateDisplay();
       window.pd_processing = false;
@@ -1090,12 +1215,46 @@ var pd = {
           "</h3>"
       );
 
+      // Revoke any live export object URL (we'll create a final static href below)
+      if (pd.ui && pd.ui._exportObjectUrl) {
+        try {
+          URL.revokeObjectURL(pd.ui._exportObjectUrl);
+        } catch (e) {}
+        pd.ui._exportObjectUrl = null;
+        $("#pd__central .processing .export-button-live").remove();
+      }
+
       if (pd.task.config.isExporting && pd.exportItems.length > 0) {
-        $("#pd__central .complete .goodbye").prepend(
-          '<hr/><a class="export-button" href=\'data:text/csv;charset=utf-8,' +
-            pd.exportItems.join("%0A") +
-            '\' download="PowerDeleteSuiteExport.csv">Download Exported Items</a>'
-        );
+        // Create a final Blob and object URL for the complete export (better for large files)
+        try {
+          // Revoke previous final URL if any
+          if (pd.ui && pd.ui._finalExportUrl) {
+            try { URL.revokeObjectURL(pd.ui._finalExportUrl); } catch (e) {}
+            pd.ui._finalExportUrl = null;
+          }
+          var finalRes = pd.ui.createExportBlobNow();
+          var finalUrl = finalRes ? finalRes.url : null;
+          if (finalUrl) {
+            if (pd.ui) pd.ui._finalExportUrl = finalUrl;
+            $("#pd__central .complete .goodbye").prepend(
+              '<hr/><a class="export-button" href="' + finalUrl + '" download="PowerDeleteSuiteExport.csv">Download Exported Items</a>'
+            );
+          } else {
+            // Fallback to previous behavior if createExportBlobNow failed
+            $("#pd__central .complete .goodbye").prepend(
+              '<hr/><a class="export-button" href=\'data:text/csv;charset=utf-8,' +
+                pd.exportItems.join("%0A") +
+                '\' download="PowerDeleteSuiteExport.csv">Download Exported Items</a>'
+            );
+          }
+        } catch (e) {
+          console.log('Failed to create final export blob, falling back to data URI', e);
+          $("#pd__central .complete .goodbye").prepend(
+            '<hr/><a class="export-button" href=\'data:text/csv;charset=utf-8,' +
+              pd.exportItems.join("%0A") +
+              '\' download="PowerDeleteSuiteExport.csv">Download Exported Items</a>'
+          );
+        }
       }
 
       $("#pd__central .processing, #pd__form").hide();
